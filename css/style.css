@@ -89,15 +89,11 @@ img {
 	height:138px;
 }
 
-.bloco p:hover{
-	font-size:25px;
-	color:#FFF;	
-}
-
 .col-2 .column {
 	padding: 0 1%;
-	width: 35%;
+	width: 90%;
 	min-width:480px;
+	max-width:600px;
 	text-align: justify;
 }
 
