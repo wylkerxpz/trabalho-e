@@ -9,7 +9,7 @@ body {
 
 a:link{
 	text-decoration:none;
-	color:#fff;
+	color:#000;
 }
 
 .top {
@@ -67,7 +67,10 @@ img {
 }
 
 .app img{
-	margin-top:12px;
+	height:90px;
+	width:auto;
+    margin-top:10%;
+	margin-bottom:10%;
 }
 
 .app p{
@@ -75,24 +78,16 @@ img {
 }
 
 .bloco{
-	background:rgba(255,255,255,0.2);
 	margin: 40px 0 40px 0;
 	width:20%;
 	min-width:330px;
-	height:auto;
 	display: inline-block;
-}
-
-.bloco:hover{
-	background:rgba(255,255,255,0.5);
-	margin:30px;
-	height:138px;
 }
 
 .col-2 .column {
 	padding: 0 1%;
 	width: 90%;
-	min-width:480px;
+	min-width:360px;
 	max-width:600px;
 	text-align: justify;
 }
@@ -100,7 +95,7 @@ img {
 .column {
 	background:rgba(255,255,255,0.2);
 	margin:30px;
-	min-height:590px;
+	min-height:635px;
 	display: inline-block;
 	vertical-align: top;
 	font-size:30px;
